@@ -23,14 +23,25 @@ public class HW1 {
 		 
 		 System.out.println("Boy or Girl?");
 		 String gender=scan.nextLine();
-		 
-		 String substring=momName.substring(2);
-		 String substring2=dadName.substring(0, 3);
-		 
-		 String babyname =substring2.concat(substring);
-		 
-		 System.out.println("Suggested baby name: "+babyname.toUpperCase());
-		 
+		 String babyName;
+		
+		 if(gender.toLowerCase().equals("boy")) {
+			 System.out.println("Congrats,it's a boy");
+			 babyName=momName.substring(0, momName.length()/2)+dadName.substring(dadName.length()/2);
+			 
+		 }else if(gender.equalsIgnoreCase("girl")) {
+			 System.out.println("Congrats it's a girl");
+			 babyName=dadName.substring(0, dadName.length()/2)+momName.substring(momName.length()/2);
+			 
+			 
+		 }else {
+			 babyName="unknown";
+		 }
+		System.out.println(babyName.toUpperCase());
+		 scan.close();
+		
+	
+	
 		 
 		 
 

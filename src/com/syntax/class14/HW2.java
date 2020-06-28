@@ -9,11 +9,21 @@ public class HW2 {
      *Create a String and print it in reverse order (Sunday → yadnuS).
 	 */
 
-		String day ="Sunday";
+		String str="AAbAA";
+		int size =str.length();
 		
-		System.out.println(day.substring(1, 2));
-		
-		
+		if(!str.isEmpty()) {
+			if(size>=3) {
+				if(size %2 !=0) {
+					int print =(size/2);
+					System.out.println(str.charAt(print));
+				}else {
+					System.out.println("The string has an even num char");
+				}
+			}else {
+				System.out.println("This string has less than 3 char");
+			}
+		}
 		
 		
 	}
