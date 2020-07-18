@@ -4,9 +4,9 @@ public class StringBufferDemo {
 
 	public static void main(String[] args) {
 	
-		StringBuffer strBuffer = new StringBuffer("Hello");//is a mutable object= changeable
-		strBuffer.append("friends");//when we perform operation it happens on same object and no New Object gets created.
-		
+		StringBuffer strBuffer = new StringBuffer();//is a mutable object= changeable
+		strBuffer.append("hello");//when we perform operation it happens on same object and no New Object gets created.
+		strBuffer.append(" world");
 		System.out.println(strBuffer);
 
 		String str2="Hello";// String is Immutable object = not changeable

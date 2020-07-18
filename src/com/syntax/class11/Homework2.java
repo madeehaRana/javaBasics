@@ -9,10 +9,10 @@ public class Homework2 {
 		 */
 		
 		String [][]names = new String [2][4];
-			//{"Madeeha","Umar","Aaban","Ammar"},
+			//{"Madeeha","Khala","Aaban","Ammar"},
 			// {"A", "B,", "C", "A"},
 	names [0][0]= "Madeeha";
-	names [0][1]= "Umar";
+	names [0][1]= "Khala";
 	names [0][2]= "Aaban";
 	names [0][3]= "Ammar";
 	names [1][0]="A";

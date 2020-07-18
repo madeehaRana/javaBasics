@@ -43,7 +43,7 @@ public class Task {
 		 */
 		
 		String [] words = {"Java", "Saturday", "day", "coding", "is"};
-		String total = (String) (words[1]+ " " + words[4]+" "+ words[0]+" " +words[3]+" "+ words[2]);
+		String total =  (words[1]+ " " + words[4]+" "+ words[0]+" " +words[3]+" "+ words[2]);
 		System.out.println(total);
 		System.out.println(words[1]+ " " + words[4]+" "+ words[0]+" " +words[3]+" "+ words[2]);
 		

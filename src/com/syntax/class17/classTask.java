@@ -24,7 +24,7 @@ public class classTask {
 		boolean isItprimeNum =obj.primeNum(90);
 		System.out.println(isItprimeNum);
 		
-		String stu = obj.getGrade(55);
+		String stu = obj.getGrade(81);
 		System.out.println(stu);
 		
 		
