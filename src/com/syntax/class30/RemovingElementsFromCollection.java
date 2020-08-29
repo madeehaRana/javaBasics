@@ -53,6 +53,7 @@ public class RemovingElementsFromCollection {
 		
 		while(citiesIt.hasNext()) {
 			String ci=citiesIt.next();
+			
 		if (ci.contentEquals("LA")|| ci.equals("New York")){
 				citiesIt.remove();
 			}
